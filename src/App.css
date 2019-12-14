@@ -1,0 +1,151 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align:center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* About Page css */
+.about-right-col {
+  background: #27221F;
+  color: rgb(255, 255, 255);
+  padding: 2em;
+  justify-content: center;
+}
+
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid p{
+font-family: 'Oxygen', sans-serif;
+font-weight: bold;
+
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 66px;
+  padding-right: 5em;
+}
+
+/* contact page css */
+
+.avatar-img {
+  height: 700px;
+  padding-top: 2em;
+  width: 45%;
+
+}
+.banner-text {
+  /* background-color: blue; */
+  opacity: .8;
+  width: 35%;
+  margin: right;
+  border-radius: 10px;
+  padding-top: 2em;
+  padding-left: 55em;
+
+}
+
+.banner-text h1 {
+font-size: 68px;
+font-weight: bold;
+color: blue;
+}
+
+.banner-text hr {
+  border-top: 5px dotted blue;
+  width: 35%;
+  margin: right;
+  padding-left: 15em;
+}
+
+.banner-text p {
+  color: blue;
+  font-size: 30px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: ($spacer-x * .25) !important;
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 12px;
+}
+
+.aboutme {
+
+  color: white;
+  text-shadow: 2px 2px 2px #CE5937;
+  font-size: 5em;
+  padding: 8px;
+
+
+/* <ButtonToolbar>
+  <Button variant="primary">Primary</Button>
+  <Button variant="secondary">Secondary</Button>
+  <Button variant="success">Success</Button>
+  <Button variant="warning">Warning</Button>
+  <Button variant="danger">Danger</Button>
+  <Button variant="info">Info</Button>
+  <Button variant="light">Light</Button>
+  <Button variant="dark">Dark</Button>
+  <Button variant="link">Link</Button>
+</ButtonToolbar> */
+}
