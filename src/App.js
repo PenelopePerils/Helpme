@@ -21,6 +21,7 @@ class App extends Component {
             </Navigation>
         </Header>
         <Drawer title="GRAYt">
+            
             <Navigation>
             {/* <Link to="/resume">Resume</Link> */}
                 {/* <Link to="/aboutme">About Me</Link> */}
@@ -31,7 +32,7 @@ class App extends Component {
             </Navigation>
         </Drawer>
         <Content>
-<div style={{ margin: 30 }}>
+<div style={{ margin: 20 }}>
 <Main />
 </div>
 </Content>

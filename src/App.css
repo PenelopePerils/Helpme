@@ -89,12 +89,14 @@ font-weight: bold;
 }
 .banner-text {
   /* background-color: blue; */
+ 
   opacity: .8;
   width: 35%;
   margin: right;
   border-radius: 10px;
   padding-top: 2em;
   padding-left: 55em;
+ 
 
 }
 
@@ -104,14 +106,15 @@ font-weight: bold;
 color: blue;
 }
 
-.banner-text hr {
+.demo-grid-1text hr {
   border-top: 5px dotted blue;
   width: 35%;
   margin: right;
   padding-left: 15em;
+  color: blue;
 }
 
-.banner-text p {
+.demo-grid-1-text p {
   color: blue;
   font-size: 30px;
   padding: 1em;
